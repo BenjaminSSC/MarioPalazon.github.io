@@ -1,0 +1,41 @@
+
+.container__img{
+    text-align:center;
+}
+
+.border__school{
+    border-bottom: solid 3px;
+}
+
+
+.img__size{
+    width: 250px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media(min-width: 768px){
+    .img__size{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .border__date{
+        border-bottom: 0;
+        border-right: solid 3px;
+    }
+    .border__school{
+        border-bottom:0;
+    }
+
+}
+
+@media(min-width: 1024px){
+    .border__date{
+        border-bottom: 0;
+        border-right:solid 3px;
+    }
+    .border__school{
+        border-bottom: 0;
+    }
+}

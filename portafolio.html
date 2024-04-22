@@ -5,34 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mario Palazon" />
-    <link rel="icon" type="image/png" href="/assets/favicon/icono.png">
+    <link rel="icon" type="image/png" href="./assets/favicon/icono.png">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
     <title>Portafolio de Proyectos</title>
 </head>
 <body>
-    <h1>Portafolio de Proyectos</h1>
-    <table border="1">
-        <thead>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Curriculum Vitae</td>
-                <td>
-                    <img src="./assets/imgs/img_portafolio_cv.png" width="50%" alt="imagen del proyecto Curriculum Vitae" />
-                </td>
-            </tr>
-            <tr>
-                <td>Proyecto 2</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Proyecto 3</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    
+    <div class="border-success border-top border-5">
+    </div>
 
-    <a href="./index.html">Volver a CV</a>
+    <div class="container-fluid px-5 my-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success rounded-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link link-success fw-bold text-white mx-lg-2" aria-current="page" href="#cv">
+                        <i class="bi bi-house-door-fill"></i> Proyecto CV
+                    </a>
+                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#coffee">
+                        <i class="bi bi-file-person-fill"></i> Proyecto Coffee
+                    </a>
+                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#iguanas">
+                        <i class="bi bi-pencil-fill"></i> Proyecto Iguanas
+                    </a>
+                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#cuppon">
+                        <i class="bi bi-newspaper"></i> Proyecto Cuppon
+                    </a>
+                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#github">
+                        <i class="bi bi-suitcase-lg-fill"></i> Proyecto GitHub
+                    </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <main class="container-fluid px-5 my-5">
+        <section>
+            <h2 class="border-5 border-success border-bottom text-center mb-3 p-2">PORTAFOLIO DE PROYECTOS 
+                <i class="bi bi-suitcase-lg-fill"></i>
+            </h2>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <p class="fs-5">
+                        Bienvenido a mi portafolio, donde a lo largo de mi carrera, he tenido el privilegio de trabajar en una variedad de proyectos que no solo demuestran mi habilidad técnica, sino también mi creatividad y pasión por el diseño front-end. Desde interfaces de usuario intuitivas hasta sitios web estéticamente agradables, cada proyecto que encuentres aquí refleja mi dedicación por aprender y aplicar nuevas tecnologías en el desarrollo web.                  
+                    </p>
+                </div>
+            </div> 
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1">
+                <div id="cv" class="col d-flex justify-content-center my-5">
+                    <div class="card border-2 border-success" style="width: 36rem;">
+                        <div class="card-header text-center">
+                            <a class="text-decoration-none text-white" href="#">
+                                Proyecto CV
+                            </a> 
+                        </div>
+                        <img src="./assets/imgs/1-cv.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cv" role="button" aria-expanded="false" aria-controls="cv">
+                                Mas Informacion
+                            </a>
+                            <div class="collapse" id="cv">
+                                <p class="card-text p-3">
+                                    En este proyecto se aprecia la creatividad y diseño para realizar un Curriculum Vitae minimalista.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="coffee" class="col d-flex justify-content-center my-5">
+                    <div class="card border-2 border-success" style="width: 36rem;">
+                        <div class="card-header text-center">
+                            <a class="text-decoration-none text-white" href="#">
+                                Proyecto Coffee Nara & Molly
+                            </a>  
+                        </div>
+                        <img src="./assets/imgs/2-coffee_shop.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Mas Informacion
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <p class="card-text p-3">
+                                    En este proyecto se aprecia un pequeño prototipo de diseño orientado en una cafeteria, distinto del diseño tradicional con colores no clasicos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="iguanas" class="col d-flex justify-content-center my-5">
+                    <div class="card border-2 border-success" style="width: 36rem;">
+                        <div class="card-header text-center">
+                            <a class="text-decoration-none text-white" href="#">                            
+                                Proyecto Iguanas
+                            </a> 
+                        </div>
+                        <img src="./assets/imgs/3-iguanas.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#reptiles" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Mas Informacion
+                            </a>
+                            <div class="collapse" id="reptiles">
+                                <p class="card-text p-3">
+                                    En este proyecto se aprecia el uso de imagenes grandes y pequeñas, para admirar los diferentes tipos de iguanas. Un diseño muy comodo para el usuario.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cuppon" class="col d-flex justify-content-center my-5">
+                    <div class="card border-2 border-success" style="width: 36rem;">
+                        <div class="card-header text-center">
+                            <a class="text-decoration-none text-white" href="#">                            
+                                Proyecto Cuppon
+                            </a>                           
+                        </div>
+                        <img src="./assets/imgs/4-cuppon.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cupones" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Mas Informacion
+                            </a>
+                            <div class="collapse" id="cupones">
+                                <p class="card-text p-3">
+                                    En este proyecto se aprecia que se puede realizar un diseño elegante, simple y atractivo usando bootstrap. El objetivo es mostrar las diferentes promociones. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="github" class="col d-flex justify-content-center my-5">
+                    <div class="card border-2 border-success" style="width: 36rem;">
+                        <div class="card-header text-center">                           
+                           <a class="text-decoration-none text-white" href="#">                            
+                                Proyecto Git-Hub
+                            </a>
+                        </div>
+                        <img src="./assets/imgs/5-github.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#git" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Mas Informacion
+                            </a>
+                            <div class="collapse" id="git">
+                                <p class="card-text">
+                                    En este proyecto se aprecia un estilo de diseño distinto para realizar un blog sobre viajes por chile, hace uso de carrousel para ir mostrando diferntes imagenes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1">
+                <div class="col text-center mt-2">
+                    <a class="btn btn-success btn-lg" href="./index.html" role="button">Volver CV</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="border-success border-top border-5">
+            
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
