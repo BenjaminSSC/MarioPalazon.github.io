@@ -17,36 +17,73 @@
     <div class="border-success border-top border-5">
     </div>
 
+    <!--Header Informacion-->
+    <header class="container-fluid px-5 my-5">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 border-success border-top border-bottom border-5 rounded-5 text-center text-md-center text-lg-start justify-content-md-center align-content-md-around justify-content-lg-center align-content-lg-center">
+                <h1>MARIO PALAZON</h1>
+                <p>WEB DESIGNER DEVELOPER</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 container__img">
+                <img class="img-fluid img__size rounded-start-circle rounded-end-circle" src="./assets/imgs/img_cv.png" alt="Foto de perfil">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 border-success border-top border-bottom border-5 rounded-5
+            justify-content-md-center align-content-md-around justify-content-lg-center align-content-lg-center">
+                <ul>
+                    <li class="d-flex flex-nowrap justify-content-center justify-content-md-start justify-content-lg-start align-content-center mt-2 mt-sm-2 mt-lg-0">
+                        <i class="bi bi-envelope"></i>
+                        <p class="d-inline">: mario.palazon@gmail.com</p>
+                    </li>
+                    <li class="d-flex flex-nowrap justify-content-center justify-content-md-start justify-content-lg-start">
+                        <i class="bi bi-phone"></i>
+                        <p class="d-inline">: 9 7583 1981</p>
+                    </li>
+                    <li class="d-flex flex-nowrap justify-content-center justify-content-md-start justify-content-lg-start">
+                        <i class="bi bi-house-fill"></i>
+                        <p class="d-inline">: Santiago Centro, Region Metropolitana</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header Informacion-->
+
+    <!--Menu-->
     <div class="container-fluid px-5 my-5">
         <nav class="navbar navbar-expand-lg navbar-dark bg-success rounded-4">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link link-success fw-bold text-white mx-lg-2" aria-current="page" href="#cv">
-                        <i class="bi bi-house-door-fill"></i> Proyecto CV
-                    </a>
-                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#coffee">
-                        <i class="bi bi-file-person-fill"></i> Proyecto Coffee
-                    </a>
-                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#iguanas">
-                        <i class="bi bi-pencil-fill"></i> Proyecto Iguanas
-                    </a>
-                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#cuppon">
-                        <i class="bi bi-newspaper"></i> Proyecto Cuppon
-                    </a>
-                    <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#github">
-                        <i class="bi bi-suitcase-lg-fill"></i> Proyecto GitHub
-                    </a>
+                <a class="icon-link icon-link-hover link-success text-white" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="./index.html">
+                    Volver CV
+                    <i class="bi bi-arrow-return-left"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link link-success fw-bold text-white mx-lg-2" aria-current="page" href="#cv">
+                            <i class="bi bi-house-door-fill"></i> CV
+                        </a>
+                        <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#coffee">
+                            <i class="bi bi-file-person-fill"></i> Coffee Shop
+                        </a>
+                        <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#iguanas">
+                            <i class="bi bi-pencil-fill"></i> Iguanas
+                        </a>
+                        <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#cuppon">
+                            <i class="bi bi-newspaper"></i> Cuppon
+                        </a>
+                        <a class="nav-link link-success fw-bold text-white mx-lg-2" href="#github">
+                            <i class="bi bi-suitcase-lg-fill"></i> GitHub
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </div>
+    <!--Menu-->
 
+    <!--Seccion Portafolios-->
     <main class="container-fluid px-5 my-5">
         <section>
             <h2 class="border-5 border-success border-bottom text-center mb-3 p-2">PORTAFOLIO DE PROYECTOS 
@@ -67,12 +104,12 @@
                                 Proyecto CV
                             </a> 
                         </div>
-                        <img src="./assets/imgs/1-cv.png" class="card-img-top" alt="...">
+                        <img src="./assets/imgs/1-cv.png" class="card-img-top" alt="se muestra una imagen del curriculum vitae de mario palazon">
                         <div class="card-body">
-                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cv" role="button" aria-expanded="false" aria-controls="cv">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cv-" role="button" aria-expanded="false" aria-controls="cv-">
                                 Mas Informacion
                             </a>
-                            <div class="collapse" id="cv">
+                            <div class="collapse" id="cv-">
                                 <p class="card-text p-3">
                                     En este proyecto se aprecia la creatividad y diseño para realizar un Curriculum Vitae minimalista.
                                 </p>
@@ -87,12 +124,12 @@
                                 Proyecto Coffee Nara & Molly
                             </a>  
                         </div>
-                        <img src="./assets/imgs/2-coffee_shop.png" class="card-img-top" alt="...">
+                        <img src="./assets/imgs/2-coffee_shop.png" class="card-img-top" alt="se muestra una imagen del proyecto coffee nara y molly ">
                         <div class="card-body">
-                            <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#coffeshop" role="button" aria-expanded="false" aria-controls="coffeshop">
                                 Mas Informacion
                             </a>
-                            <div class="collapse" id="collapseExample">
+                            <div class="collapse" id="coffeshop">
                                 <p class="card-text p-3">
                                     En este proyecto se aprecia un pequeño prototipo de diseño orientado en una cafeteria, distinto del diseño tradicional con colores no clasicos.
                                 </p>
@@ -107,9 +144,9 @@
                                 Proyecto Iguanas
                             </a> 
                         </div>
-                        <img src="./assets/imgs/3-iguanas.png" class="card-img-top" alt="...">
+                        <img src="./assets/imgs/3-iguanas.png" class="card-img-top" alt="se muestra una imagen sobre el proyecto de reptiles">
                         <div class="card-body">
-                            <a class="btn btn-success" data-bs-toggle="collapse" href="#reptiles" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#reptiles" role="button" aria-expanded="false" aria-controls="reptiles">
                                 Mas Informacion
                             </a>
                             <div class="collapse" id="reptiles">
@@ -127,9 +164,9 @@
                                 Proyecto Cuppon
                             </a>                           
                         </div>
-                        <img src="./assets/imgs/4-cuppon.png" class="card-img-top" alt="...">
+                        <img src="./assets/imgs/4-cuppon.png" class="card-img-top" alt="se muestra una imagen sobre el proyecto de cupones">
                         <div class="card-body">
-                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cupones" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#cupones" role="button" aria-expanded="false" aria-controls="cupones">
                                 Mas Informacion
                             </a>
                             <div class="collapse" id="cupones">
@@ -147,13 +184,13 @@
                                 Proyecto Git-Hub
                             </a>
                         </div>
-                        <img src="./assets/imgs/5-github.png" class="card-img-top" alt="...">
+                        <img src="./assets/imgs/5-github.png" class="card-img-top" alt="se muestra una imagen sobre el proyecto de viajes tipo blog">
                         <div class="card-body">
-                            <a class="btn btn-success" data-bs-toggle="collapse" href="#git" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-success" data-bs-toggle="collapse" href="#git" role="button" aria-expanded="false" aria-controls="git">
                                 Mas Informacion
                             </a>
                             <div class="collapse" id="git">
-                                <p class="card-text">
+                                <p class="card-text p-3">
                                     En este proyecto se aprecia un estilo de diseño distinto para realizar un blog sobre viajes por chile, hace uso de carrousel para ir mostrando diferntes imagenes.
                                 </p>
                             </div>
@@ -168,12 +205,34 @@
             </div>
         </section>
     </main>
+    <!--Seccion Portafolios-->
 
-    <footer class="container-fluid">
-        <div class="border-success border-top border-5">
-            
+    <!--Seccion Footer-->
+    <footer class="container-fluid bg-success">
+        <div class="row row-cols-1 row-cols-sm-2 py-3">
+            <div class="col p-1 text-center">
+                <h3>Mario Palazon</h3>
+            </div>
+            <div class="col fs-4 p-2 d-flex justify-content-around flex-sm-row justify-content-sm-around justify-content-lg-centers">
+                <a class="nav-link link-success fw-bold text-white mx-lg-4" aria-current="page" href="#">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a class="nav-link link-success fw-bold text-white mx-lg-4" aria-current="page" href="#">
+                    <i class="bi bi-twitter-x"></i> 
+                </a>
+                <a class="nav-link link-success fw-bold text-white mx-lg-4" aria-current="page" href="#">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="nav-link link-success fw-bold text-white mx-lg-4" aria-current="page" href="#">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
         </div>
     </footer>
+    <!--Seccion Footer-->
+
+    <div class="border-success border-top border-5">
+    </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
